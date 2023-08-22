@@ -1,9 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace FE.EasyAudio
 {
     public static class AudioManager
     {
+        public event Action OnMuteChange;
+
         private const string volume_key = "VolumeKEY";
         private const string mute_key = "MuteKEY";
 
@@ -41,12 +44,14 @@ namespace FE.EasyAudio
         {
             IsMuted = true;
             PlayerPrefs.SetInt(mute_key, 1);
+            OnMuteChange?.Invoke();
         }
 
         public static void UnMute()
         {
             IsMuted = false;
             PlayerPrefs.SetInt(mute_key, 0);
+            OnMuteChange?.Invoke();
         }
     }
 }
