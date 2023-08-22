@@ -5,7 +5,7 @@ namespace FE.EasyAudio
 {
     public static class AudioManager
     {
-        public event Action OnMuteChange;
+        public static event Action OnMuteChange;
 
         private const string volume_key = "VolumeKEY";
         private const string mute_key = "MuteKEY";
