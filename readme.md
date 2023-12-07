@@ -1,6 +1,7 @@
 How To Install
 --------------
 
+
 This package uses the [scoped registry] feature to resolve package
 dependencies. Open the Package Manager page in the Project Settings window and
 add the following entry to the Scoped Registries list:
