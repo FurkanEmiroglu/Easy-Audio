@@ -2,11 +2,11 @@
   "author": "Furkan Emiroglu",
   "name": "com.femiroglu.easyaudio",
   "displayName": "Easy Audio",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "unity": "2021.3",
   "repository": {
-	  "type": "git",
-	  "url": "github:furkanemiroglu/easy-audio"
+    "type": "git",
+    "url": "github:furkanemiroglu/easy-audio"
   },
   "documentationUrl": "https://github.com/FurkanEmiroglu/Easy-Audio#readme",
   "changelogUrl": "https://github.com/FurkanEmiroglu/Easy-Audio#readme",
